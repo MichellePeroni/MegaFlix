@@ -1,0 +1,34 @@
+header {
+    background-image: url('../../imagens/filmes.png');
+    background-size: cover;
+    width: 100%;
+    height: 850px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+
+}
+nav {
+    grid-column: 1/11;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font-elegante);
+    color: var(--cor-branca);
+    font-size: 1.3rem;
+}
+.logo_image {
+    width: 92px;
+    height: 72px;
+}
+
+li {
+
+}
